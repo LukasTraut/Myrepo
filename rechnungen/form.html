@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/form.css">
+
+</head>
+
+<body>
+    <form action="https://formlog.offline.ch/log" method="post">
+
+        <div>
+            <label for="Vorname">Vorname</label>
+            <input type="text" id="Vorname" name="Vorname">
+        </div>
+        <div>
+            <br>
+            <label for="Nachname">Nachname </label>
+            <input type="text" id="Nachname" name="Nachname">
+        </div>
+        <div>
+            <br>
+            <label for="E-Mail">E-Mail</label>
+            <input type="email" id="E-Mail" name="E-Mail">
+        </div>
+        <div>
+            <br>
+            <label for="Strasse" >Strasse </label>
+            <input type="text" id="Strasse" name="Strasse">
+        </div>
+        <div>
+            <br>
+            <label for="PLZ, Ort">PLZ und Ort </label>
+            <input type="text" id="PLZ und Ort" name="PLZ und Ort">
+        </div>
+        <div>
+            <br>
+            <label for="Nummer">Telefonnummer </label>
+            <input type="text" id="Telefonnummer" name="Telefonnummer">
+        </div>
+        <div>
+            <br>
+            <label for="ÖV-Abo">ÖV-Abo </label>
+            <select id="ÖV-Abo" name="ÖV-Abo">
+                <option value="GA">GA</option>
+                <option value="Kein Abo">Kein Abo</option>
+                <option value="Halbtax">Halbtax</option>
+                <option value="Streckenabo">Streckenabo</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Abendessen">Abendessen</label>
+            <select name="Abendessen" id="Abendessen" name="Abendessen">
+                <option value="Menü1">Menü 1</option>
+                <option value="Menü2">Menü 2</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Übernachtung">Übernachtung</label>
+            <select id="Übernachtung" name="Übernachtung">
+                <option value="Mit Übernachtung"> Mit Übernachtung</option>
+                <option value="Ohne Übernachtung">Ohne Übernachtung</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Zimmer">Zimmer</label>
+            <select id="Zimmer" name="Zimmer">
+                <option value="Einzelzimmer">Einzelzimmer</option>
+                <option value="Doppelzimmer">Doppelzimmer</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Bemerkung">Bemerkung</label>
+            <textarea cols="50" id="Bemerkung" name="Bemerkung"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Bestätigen">Bestätigen</label>
+            <button type="Bestätigen"> Bestätigen</button>
+        </div>
+    </form>
+</body>
+
+</html>

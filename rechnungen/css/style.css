@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 10% 10px 20px 400px;
+    font-family: "Jacques Francois Shadow", serif;
+}
+.img{
+    padding: 10% 30px 30px 30px;
+}
+.people{
+    color: rgb(255,0,0);
+    padding: 0% 100px 100px 50%;
+}
+
+
+ 
+ table {
+    border-collapse: collapse ;
+
+ }
+ td {
+
+    border:  1px solid black;
+ } 
+ th{
+  
+    border:  1px solid black;
+ }
+ table{
+    width: 100%; 
+ }
+ .noborder{
+    border:  none;
+ }
+ .double{
+    border-bottom: 3px double black ;
+ }
+a:hover {
+    color: red;
+}
+.header{
+   margin-left: 50px;
+}

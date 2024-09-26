@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Formular
+    </title>
+    <body>
+        <label for="Vorname">Vorname</label>
+<input type="text" id="Vorname" name="Vorname">
+    <label for="Nachname">Nachname  </label>
+<input type="text" id="Nachname" name="Nachname">
+    </body>
+
+
+
